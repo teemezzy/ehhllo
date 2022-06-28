@@ -39,10 +39,10 @@ const Base = () => {
         </div>
       </div>
       <div className='lg:w-3/5 lg:ml-[12rem] mt-[60px] lg:mb-28 mb-10'>
-        <p className="lg:text-6xl text-3xl pl-12 font-semibold">Wish to partner</p>
+        <p className="lg:text-6xl text-3xl pl-14 font-semibold">Wish to partner</p>
         <div className="lg:flex lg:flex-row mt-4 m-auto items-center">
-          <p className="lg:text-6xl text-3xl pl-12 lg:pr-20 font-semibold"> with us?</p>
-          <button className="text-white lg:mt-0 mt-3 lg:ml-0 ml-12 bg-red-600 py-[10px] px-12 font-[Raleway] font-bold text-[16px]">Contact us here </button>
+          <p className="lg:text-6xl text-3xl pl-14 lg:pr-20 font-semibold"> with us?</p>
+          <button className="text-white lg:mt-0 mt-3 lg:ml-0 ml-14 bg-red-600 py-[10px] px-12 font-[Raleway] font-bold text-[16px]">Contact us here </button>
         </div>
       </div>
     </>
