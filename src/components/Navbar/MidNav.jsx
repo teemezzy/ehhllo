@@ -1,19 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { navList } from "./navList";
 import { NavLink } from "react-router-dom";
-import { GrClose } from "react-icons/gr";
-import { GiHamburgerMenu } from "react-icons/gi";
-import DrawerNav from "./DrawerNav";
+import { expressMobile } from "../../assets";
+
 
 const MidNav = () => {
-  const [toggle, setToggle] = useState(false);
 
-  const handleClick = () => {
-    setToggle(!toggle);
-  };
   return (
     <div className="set-position">
-      <div className=" xl:hidden pt-10 flex justify-between items-center px-5 bg-white pb-4 ">
+      <div className=" xl:hidden pt-10 flex justify-between items-center px-5 bg-white pb-4 lg:w-full w-[30%] ">
             
             {navList.map((nav) => (
             <div key={nav.id}>
@@ -22,18 +17,23 @@ const MidNav = () => {
                 </NavLink>
             </div>
             ))}
-            <div>{toggle ? <GrClose onClick={handleClick} /> : <GiHamburgerMenu onClick={handleClick}/>}</div>
             
+            <div className="">
+                    {/* <div className="text-[10px]">
+                        <NavLink to="/">messenger</NavLink>
+                    </div> */}
+                    <div className="">
+                        <NavLink to="/express.ehhllo">
+                        <img src={expressMobile} alt="" className='w-full' />
+                        </NavLink>
+                    </div>
+
+                  {/* <div className="text-[10px]">
+                      <NavLink to="/">Contact</NavLink>
+                  </div> */}
+                </div>
       </div>
 
-
-      <div>
-        {toggle && (
-          <div className="flex flex-col justify-end">
-            <DrawerNav />
-          </div>
-        )}
-      </div>
     </div>
   );
 };

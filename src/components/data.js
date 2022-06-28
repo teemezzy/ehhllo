@@ -89,10 +89,6 @@ export const link3 = [
         path: "/",
         link: "Facebook",
       },
-    {
-      id: 5,
-      path: "/",
-      link: "Twitter",
-    },
+    
   ];
   
