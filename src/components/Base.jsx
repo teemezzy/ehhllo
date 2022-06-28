@@ -3,7 +3,7 @@ import React from "react";
 const Base = () => {
   return (
     <>
-      <div className="bg-black text-white flex flex-col justify-center m-auto w-[75%] rounded-xl mb-16 pb-6">
+      <div className="bg-black text-white flex flex-col justify-center m-auto w-[1290px] rounded-xl mb-16 pb-6">
         <div className="flex flex-col justify-center pl-8 lg:py-16 pt-3 pb-">
           <p className="font-semibold lg:text-6xl text-3xl pb-5">
             Join the <span className="text-red-600">ehhllo</span> community!
@@ -38,11 +38,11 @@ const Base = () => {
           </div>
         </div>
       </div>
-      <div className='lg:w-3/5 lg:ml-[12rem] mt-[60px] lg:mb-28 mb-10'>
-        <p className="lg:text-6xl text-3xl pl-14 font-semibold">Wish to partner</p>
+      <div className=' mt-[60px] lg:mb-28 mb-10 lg:w-[1290px] m-auto'>
+        <p className="lg:text-6xl text-3xl pl-14 font-semibold w-[590px]">Wish to partner</p>
         <div className="lg:flex lg:flex-row mt-4 m-auto items-center">
-          <p className="lg:text-6xl text-3xl pl-14 lg:pr-20 font-semibold"> with us?</p>
-          <button className="text-white lg:mt-0 mt-3 lg:ml-0 ml-14 bg-red-600 py-[10px] px-12 font-[Raleway] font-bold text-[16px]">Contact us here </button>
+          <p className="lg:text-6xl text-3xl pl-14  font-semibold">with us?</p>
+          <button className="text-white lg:ml-24 lg:mt-0 mt-3 ml-14 bg-red-600 py-[10px] px-12 font-[Raleway] font-bold text-[16px]">Contact us here </button>
         </div>
       </div>
     </>

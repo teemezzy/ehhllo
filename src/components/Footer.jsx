@@ -5,7 +5,7 @@ import { link1, link2, link3, link4 } from "./data";
 const Footer = () => {
   return (
     <>
-      <div className=" bg-[#353535] text-white font-[Raleway] lg:pt-28 pt-7 pb-14 lg:px-28 flex flex-col justify-center m-auto lg:w-[75%] lg:rounded-xl">
+      <div className=" bg-[#353535] text-white font-[Raleway] lg:pt-28 pt-7 pb-14 lg:px-28 flex flex-col justify-center m-auto lg:w-[1290px] lg:rounded-xl">
         <div className="flex justify-evenly">
           <div className="lg:flex lg:justify-around lg:w-full text-[13px] ">
                 <div>
