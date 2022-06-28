@@ -7,7 +7,7 @@ import MidNav from "./MidNav";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed top-0 right-0 left-0 bg-white lg:mx-[10rem] navbar  ">
+      <div className="fixed top-0 right-0 left-0 bg-white lg:mx-[10rem]">
         <nav className="hidden xl:block navbar divide-solid > * divide-gray-500 > *
 ">
           <div className="flex justify-between pt-10 ">
