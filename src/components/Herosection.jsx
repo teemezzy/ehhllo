@@ -3,7 +3,7 @@ import { Hero } from "../assets";
 
 const Herosection = () => {
   return (
-    <div className=" flex flex-col lg:flex-row lg:justify-between lg:items-center lg:mt-52 mt-32 lg:w-1/2 m-auto justify-center lg:mb-72 mb-10">
+    <div className=" flex flex-col lg:flex-row lg:justify-between lg:items-center lg:mt-52 mt-32 lg:w-3/4 m-auto justify-center lg:mb-72 mb-10">
       <div className="w-[20rem] lg:placeholder m-auto">
         <h1 className="lg:text-[68px] text-[45.22px] font-semibold">ehhllo</h1>
         <h3 className="italic text-3xl mb-[10px]">/hello/</h3>
