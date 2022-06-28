@@ -7,7 +7,7 @@ const Footer = () => {
     <>
       <div className=" bg-[#353535] text-white font-[Raleway] lg:pt-28 pt-7 pb-14 lg:px-28 flex flex-col justify-center m-auto lg:w-[75%] lg:rounded-xl">
         <div className="flex justify-evenly">
-          <div className="lg:flex lg:justify-around lg:w-full ">
+          <div className="lg:flex lg:justify-around lg:w-full text-[13px] ">
                 <div>
                 {link1.map((link) => (
                     <div className="pb-8" key={link.id}>
@@ -25,7 +25,7 @@ const Footer = () => {
                 ))}
                 </div>
           </div>
-          <div className="lg:flex lg:justify-around lg:w-full  ">
+          <div className="lg:flex lg:justify-around lg:w-full text-[13px] ">
                 <div>
                 {link2.map((link) => (
                     <div className="pb-8" key={link.id}>

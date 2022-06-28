@@ -7,7 +7,7 @@ import MidNav from "./MidNav";
 const Navbar = () => {
   return (
     <>
-      <div className="fixed top-0 right-0 left-0 bg-white lg:mx-[10rem]">
+      <div className="fixed top-0 right-0 left-0 bg-white lg:mx-[10rem] lg:w-3/4">
         <nav className="hidden xl:block navbar divide-solid > * divide-gray-500 > * border-b-2 pb-5 px-7
 ">
           <div className="flex justify-between pt-10 ">
@@ -16,7 +16,7 @@ const Navbar = () => {
                         <img
                         src={Logo}
                         alt="ehhllo_logo"
-                        className="w-[183px]"
+                        className="w-[150px]"
                         />
                     </NavLink>
                 </div>
