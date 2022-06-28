@@ -1,3 +1,4 @@
 import Home from './Home'
+import Express from './Express'
 
-export {Home}
+export {Home, Express}

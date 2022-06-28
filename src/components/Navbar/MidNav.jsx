@@ -8,7 +8,7 @@ const MidNav = () => {
 
   return (
     <div className="set-position">
-      <div className=" xl:hidden pt-10 flex justify-between items-center px-5 bg-white pb-4 w-full border-b-2 ">
+      <div className=" xl:hidden pt-5 flex justify-between items-center px-5 bg-white pb-4 w-full border-b-2 ">
             
             {navList.map((nav) => (
             <div key={nav.id} className='w-[25%]'>
