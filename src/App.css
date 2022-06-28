@@ -6,4 +6,6 @@
 
 body{
   font-family: 'Playfair Display', serif;
+  max-width:1920px;
+  margin:auto
 }
