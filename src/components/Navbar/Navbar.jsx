@@ -20,7 +20,7 @@ const Navbar = () => {
                         />
                     </NavLink>
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center font-[Raleway]">
                     <div className="mr-12">
                         <NavLink to="/">messenger</NavLink>
                     </div>
