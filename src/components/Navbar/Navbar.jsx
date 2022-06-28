@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <div className="fixed top-0 right-0 left-0 bg-white lg:mx-[10rem]">
-        <nav className="hidden xl:block navbar divide-solid > * divide-gray-500 > *
+        <nav className="hidden xl:block navbar divide-solid > * divide-gray-500 > * border-b-2 pb-5 px-7
 ">
           <div className="flex justify-between pt-10 ">
                 <div className="flex items-center ">
@@ -20,7 +20,7 @@ const Navbar = () => {
                         />
                     </NavLink>
                 </div>
-                <div className="flex justify-between items-center font-[Raleway]">
+                <div className="flex justify-between items-center font-[Raleway] text-[#284B63] font-bold">
                     <div className="mr-12">
                         <NavLink to="/">messenger</NavLink>
                     </div>
