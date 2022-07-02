@@ -1,11 +1,11 @@
 import React from "react";
-import Logo from "../../assets/logo.png";
+import {LogoExpress} from "../../assets";
 
 
 export const navList = [
   {
     id: 1,
-    link: <img src = {Logo} alt='logo'/>,
+    link: <img src = {LogoExpress} alt='logo'/>,
     path: "/",
   },
 
