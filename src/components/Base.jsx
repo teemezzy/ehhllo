@@ -9,7 +9,7 @@ const Base = () => {
             Join the <span className="text-red-600">ehhllo</span> community!
           </p>
           <div className="lg:flex justify-between lg:w-[75%] w-[85%] gap-24">
-            <div className='lg:w-[70%]'>
+            <div className="lg:w-[70%]">
               <p className="font-[Raleway] tracking-wide lg:text-[30px] font-light text-[gray] mb-2">
                 Be the first to know
               </p>
@@ -21,7 +21,11 @@ const Base = () => {
 
             <div>
               <div className=" ">
-                <input type="text" placeholder="Email" className="p-2 w-full lg:translate-y-7 " />
+                <input
+                  type="text"
+                  placeholder="Email"
+                  className="p-2 w-full lg:translate-y-7 "
+                />
                 <button
                   type="button"
                   className="bg-red-600 text-white rounded-lg font-[Raleway] lg:mt-[45px] mt-4 font-bold py-3 px-16"
@@ -38,11 +42,15 @@ const Base = () => {
           </div>
         </div>
       </div>
-      <div className=' mt-[60px] lg:mb-28 mb-10 lg:w-[1290px] m-auto'>
-        <p className="lg:text-6xl text-3xl pl-14 font-semibold lg:w-[590px]">Wish to partner</p>
+      <div className=" mt-[60px] lg:mb-28 mb-10 lg:w-[1290px] m-auto">
+        <p className="lg:text-6xl text-3xl pl-14 font-semibold lg:w-[590px]">
+          Wish to partner
+        </p>
         <div className="lg:flex lg:flex-row mt-4 m-auto items-center">
           <p className="lg:text-6xl text-3xl pl-14  font-semibold">with us?</p>
-          <button className="text-white lg:ml-24 lg:mt-0 mt-3 ml-14 bg-red-600 py-[10px] px-12 font-[Raleway] font-bold text-[16px]">Contact us here </button>
+          <button className="text-white lg:ml-24 lg:mt-0 mt-3 ml-14 bg-red-600 py-[10px] px-12 font-[Raleway] font-bold text-[16px]">
+            Contact us here{" "}
+          </button>
         </div>
       </div>
     </>

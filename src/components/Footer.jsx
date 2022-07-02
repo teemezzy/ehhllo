@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { link1, link2, link3, link4 } from "./data";
+import { link1, link2, link3, link4 } from "./Footerdata";
 
 const Footer = () => {
   return (
