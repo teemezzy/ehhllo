@@ -6,7 +6,7 @@ export const navList = [
   {
     id: 1,
     link: <img src = {LogoExpress} alt='logo'/>,
-    path: "/",
+    path: "/express.ehhllo",
   },
 
 ];

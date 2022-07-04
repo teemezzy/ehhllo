@@ -11,7 +11,7 @@ const Navbar = () => {
         <nav className="hidden xl:block divide-solid > * divide-gray-500 > * border-b-2 pb-5 lg:w-[1290px] m-auto lg:px-[45px]">
           <div className="flex justify-between pt-10">
             <div className="flex items-center">
-              <NavLink to="/">
+              <NavLink to="/express.ehhllo">
                 <img
                   src={LogoExpress}
                   alt="ehhllo_logo"
