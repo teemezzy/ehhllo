@@ -12,7 +12,6 @@ const Express = () => {
       <MainExpress />
       <BaseExpress />
       <Cards />
-      
       <FooterExpress />
     </div>
   );
