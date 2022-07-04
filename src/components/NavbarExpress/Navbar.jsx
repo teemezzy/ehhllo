@@ -15,7 +15,7 @@ const Navbar = () => {
                 <img
                   src={LogoExpress}
                   alt="ehhllo_logo"
-                  className="w-[150px]"
+                  className=" lg:w-[150px] "
                 />
               </NavLink>
             </div>

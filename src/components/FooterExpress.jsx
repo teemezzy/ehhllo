@@ -6,7 +6,7 @@ const FooterExpress = () => {
   return (
     <>
       {/* Offline Traction */}
-      <div className="bg-black text-white py-[64px] px-[30px] lg:w-[1261px] w-[354px] m-auto rounded-xl mt-[60px]">
+      <div className="bg-black text-white lg:py-[64px] py-[39px] lg:px-[30px] px-[12px] lg:w-[1261px] w-[354px] m-auto rounded-xl mt-[60px]">
         <div className="">
           <h1 className="lg:text-5xl text-[32px] font-semibold">Our Offline Traction</h1>
           <p className="lg:w-[61rem] lg:text-[24px] text-[12px] w-[294px] font-[Raleway]">
@@ -16,30 +16,32 @@ const FooterExpress = () => {
           </p>
 
           <div className="flex lg:flex-row flex-col justify-start">
+            <div className='flex justify-between'>
             <div className="lg:pr-[136.47px]">
-              <h1 className="lg:text-5xl font-semibold mb-[10px]">40+</h1>
-              <p className="lg:text-[24px] font-[Raleway]">Active Users</p>
-              <p className="lg:text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
+              <h1 className="lg:text-5xl text-[32px] font-semibold mb-[10px] ">40+</h1>
+              <p className="lg:text-[24px] text-[14px] font-[Raleway]">Active Users</p>
+              <p className="lg:text-[14px] text-[12px] mt-[9px] font-[Raleway] lg:w-[269.53px] w-[155px] opacity-95">
                 With man-man marketing and refferals, we are having more
                 businesses and individuals actively using our service
               </p>
             </div>
 
-            <div className="pr-[136.47px]">
-              <h1 className="lg:text-5xl font-semibold mb-[10px]">350+</h1>
-              <p className="lg:text-[24px] font-[Raleway]">
+            <div className="lg:pr-[136.47px] ">
+              <h1 className="lg:text-5xl text-[32px] font-semibold mb-[10px]">350+</h1>
+              <p className="lg:text-[24px] text-[14px] font-[Raleway]">
                 Completed Transaction
               </p>
-              <p className="lg:text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
+              <p className="lg:text-[14px] text-[12px] mt-[9px] font-[Raleway] lg:w-[269.53px] w-[155px] opacity-95">
                 Beyond these figure are transactions with that are making people
                 refer and long for the app release
               </p>
             </div>
+            </div>
 
             <div className=" ">
-              <h1 className="text-5xl font-semibold mb-[10px]">70%</h1>
-              <p className="text-[24px] font-[Raleway]">Positive Feedback</p>
-              <p className="text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
+              <h1 className="lg:text-5xl text-[32px] font-semibold mb-[10px]">70%</h1>
+              <p className="lg:text-[24px] text-[14px font-[Raleway]">Positive Feedback</p>
+              <p className="lg:text-[14px] text-[12px] mt-[9px] font-[Raleway] lg:w-[269.53px] w-[155px] opacity-95">
                 We always try to collect feeedback from users and dispatch
                 partners. So far, we are getting more positive feedbacks.
               </p>
@@ -48,16 +50,16 @@ const FooterExpress = () => {
         </div>
       </div>
       {/* Sensational Blitze */}
-      <div className="flex flex-col m-auto bg-[#284B63] rounded-xl mt-[40px] w-[354px] lg:w-[1261px] text-white text-center py-[60px]">
-        <p className="lg:first-line:w-[565px] m-auto lg:text-[24px] text-[10px] font-light w-[266px] font-[Raleway]">
+      <div className="flex flex-col m-auto bg-[#284B63] rounded-xl mt-[40px] w-[354px] lg:w-[1261px] text-white text-center lg-py-[60px] py-[19px]">
+        <p className=" lg:w-[565px] m-auto lg:text-[24px] text-[10px] font-light w-[266px] font-[Raleway]">
           Beyond these figure are transactions with that are making people refer
           and long for the app release
         </p>
 
-        <p className="lg:text-[24px] text-[10px] font-semibold">Sensational Bitez</p>
-        <p className="lg:text-[14px] text-[8px] italic font-[Raleway]">Business</p>
+        <p className="lg:text-[24px] mt-[13px] text-[10px] font-semibold">Sensational Bitez</p>
+        <p className="lg:text-[14px] mt-[5px] text-[8px] italic font-[Raleway]">Business</p>
 
-        <div className='flex m-auto mt-[42.69px]'>
+        <div className='flex m-auto lg:mt-[42.69px] mt-[10px]'>
           <BsCircleFill className='lg:w-[20px] w-[5.61px] lg:mr-[10px] mr-[2.81px]' />
           <BsCircleFill className='lg:w-[20px] w-[5.61px] text-[#C4C4C4] lg:mr-[10px] mr-[2.81px]'/>
           <BsCircleFill className='lg:w-[20px] w-[5.61px] text-[#C4C4C4] lg:mr-[10px] mr-[2.81px]'/>

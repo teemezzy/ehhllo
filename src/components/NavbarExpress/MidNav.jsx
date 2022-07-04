@@ -13,11 +13,11 @@ const MidNav = () => {
   };
   return (
     <div className="set-position">
-      <div className=" xl:hidden pt-5 flex justify-between items-center px-5 bg-white pb-3">
+      <div className=" xl:hidden pt-5 flex justify-between items-center px-5 bg-white pb-3 border-2">
             
             {navList.map((nav) => (
-            <div key={nav.id}>
-                <NavLink className="" to={nav.path}>
+            <div key={nav.id} className="w-[48.03px]">
+                <NavLink  to={nav.path}>
                 {nav.link}
                 </NavLink>
             </div>

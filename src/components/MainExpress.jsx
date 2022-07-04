@@ -4,18 +4,18 @@ import { ExpressHero, iosIcon, googlePlayStore } from "../assets";
 const MainExpress = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row lg:justify-between justify-center lg:gap-36 lg:items-center lg:mt-[170.19px mt-32 m-auto lg:w-[1290px] lg:px-[45px] justify-center lg:mb-[100px] mb-10">
+      <div className="flex flex-col lg:flex-row lg:justify-between justify-center lg:gap-36 lg:items-center lg:mt-[170.19px] mt-[69px] m-auto lg:w-[1290px] lg:px-[45px] justify-center lg:mb-[100px] mb-10">
         <div className="m-auto lg:-translate-y-9">
           <h1 className="lg:text-[60px] text-[48px] lg:w-[28.8rem] w-[349px] font-bold text-[#284B63]">
             Cheap, fast, and easy dispatch
           </h1>
 
-          <p className="font-[Raleway] lg:text-[24px] text-[14px] lg:w-[460px] w-[259px] text-[#353535]">
+          <p className="font-[Raleway] lg:text-[24px] text-[14px] lg:w-[460px] w-[259px] lg:mt-0 mt-[20px] text-[#353535]">
             Easiest and fastest way to get a dispatch service provider close to
             you!
           </p>
 
-          <div className="bg-black text-white flex flex-col lg:justify-center lg:px-[58px] px-[12.14px] lg:py-[36px] py-[21.5px] lg:w-[437px] w-[354px] rounded-xl mb-16 pb-6">
+          <div className="bg-black text-white flex flex-col lg:justify-center lg:mt-0 mt-[40px] lg:px-[58px] px-[12.14px] lg:py-[36px] py-[21.5px] lg:w-[437px] w-[354px] rounded-xl mb-16 pb-6">
             <p className="lg:font-black font-semibold lg:tracking-wide tracking-[0.01em] text-[32px] lg:w-[321px]">
               Launching soon
             </p>
