@@ -3,7 +3,7 @@ import { iosIcon, googlePlayStore } from "../assets";
 
 const BaseExpress = () => {
   return (
-    <div className="bg-black text-white lg:w-[1259px] w-[354px] flex flex-col justify-center m-auto lg:py-[69.89px] py-[28px] lg:pl-[29.97px] px-[12px] rounded-xl mb-[91.89px]">
+    <div className="bg-black text-white lg:w-[1259px] w-[354px] flex flex-col justify-center m-auto lg:py-[69.89px] py-[18px] lg:pl-[29.97px] px-[12px] rounded-xl mb-[91.89px]">
       <div>
         <h1 className="lg:text-[70px] text-[32px] font-semibold ">
           Make money riding or driving

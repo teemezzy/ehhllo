@@ -51,7 +51,7 @@ const FooterExpress = () => {
       </div>
       {/* Sensational Blitze */}
       <div className="flex flex-col m-auto bg-[#284B63] rounded-xl mt-[40px] w-[354px] lg:w-[1261px] text-white text-center lg-py-[60px] py-[19px]">
-        <p className=" lg:w-[565px] m-auto lg:text-[24px] text-[10px] font-light w-[266px] font-[Raleway]">
+        <p className=" lg:w-[565px] m-auto lg:text-[24px] text-[12px] font-light w-[266px] font-[Raleway]">
           Beyond these figure are transactions with that are making people refer
           and long for the app release
         </p>

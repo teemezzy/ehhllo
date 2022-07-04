@@ -33,7 +33,7 @@ export const link2 = [
   },
   {
     id: 2,
-    path: "/",
+    path: "/about",
     link: "About us",
   },
   {
@@ -76,18 +76,24 @@ export const link3 = [
     },
     {
       id: 2,
-      path: "/",
+      path: "https://instagram.com/express.ehhllo",
       link: "Instagram ",
     },
     {
       id: 3,
-      path: "/",
+      path: "https://www.express.ehhllo.com/",
       link: "ehhllo",
     },
     {
         id: 4,
-        path: "/",
+        path: "https://facebook.com/ehhllo",
         link: "Facebook",
+      },
+
+      {
+        id: 5,
+        path: "https://twitter.com/ehhllo",
+        link: "Twitter",
       },
     
   ];

@@ -4,7 +4,7 @@ import { ExpressHero, iosIcon, googlePlayStore } from "../assets";
 const MainExpress = () => {
   return (
     <div>
-      <div className="flex flex-col lg:flex-row lg:justify-between justify-center lg:gap-36 lg:items-center lg:mt-[170.19px] mt-[69px] m-auto lg:w-[1290px] lg:px-[45px] justify-center lg:mb-[100px] mb-10">
+      <div className="flex flex-col lg:flex-row lg:justify-between justify-center lg:gap-36 lg:items-center lg:mt-[170.19px] mt-[69px] m-auto lg:w-[1290px] lg:px-[45px] lg:mb-[100px] mb-10">
         <div className="m-auto lg:-translate-y-9">
           <h1 className="lg:text-[60px] text-[48px] lg:w-[28.8rem] w-[349px] font-bold text-[#284B63]">
             Cheap, fast, and easy dispatch
@@ -16,7 +16,7 @@ const MainExpress = () => {
           </p>
 
           <div className="bg-black text-white flex flex-col lg:justify-center lg:mt-0 mt-[40px] lg:px-[58px] px-[12.14px] lg:py-[36px] py-[21.5px] lg:w-[437px] w-[354px] rounded-xl mb-16 pb-6">
-            <p className="lg:font-black font-semibold lg:tracking-wide tracking-[0.01em] text-[32px] lg:w-[321px]">
+            <p className="lg:font-black font-semibold lg:tracking-wide tracking-[0.01em] mb-[10px] text-[32px] lg:w-[321px]">
               Launching soon
             </p>
             <p className="lg:text-[24px] text-[14px] font-normal opacity-50 font-[Raleway]">
@@ -36,7 +36,7 @@ const MainExpress = () => {
                   Submit
                 </button>
               </div>
-              <p className=" lg:text-[12px] text-[8px] lg:w-full w-[179px] font-light font-[Raleway] text-[gray] mt-2 ">
+              <p className=" lg:text-[12px] text-[8px] lg:w-full w-[179px] font-light font-[Raleway] mt-2">
                 By submitting, you agree to receive updates from ehhllo. You may
                 unsubscribe at any time.
               </p>
@@ -50,11 +50,11 @@ const MainExpress = () => {
             className=" lg:w-[36.858rem] w-[21.875rem] lg:h-[47rem]"
           />
           <div className="flex gap-5 justify-center mt-[10px] lg:w-full w-[221.8px] m-auto">
-            <a href="https://apple.com">
-              <img src={iosIcon} alt="IOS APP" />
-            </a>
             <a href="https://google.com">
               <img src={googlePlayStore} alt="ANDRIOD APP" />
+            </a>
+            <a href="https://apple.com">
+              <img src={iosIcon} alt="IOS APP" />
             </a>
           </div>
         </div>
