@@ -9,7 +9,7 @@ export const link1 = [
 
   {
     id: 2,
-    path: "/",
+    path: "/express.ehhllo",
     link: "eXpress",
   },
   {

@@ -6,31 +6,31 @@ const FooterExpress = () => {
   return (
     <>
       {/* Offline Traction */}
-      <div className="bg-black text-white py-[64px] px-[30px] lg:w-[1261px] m-auto rounded-xl mt-[60px]">
+      <div className="bg-black text-white py-[64px] px-[30px] lg:w-[1261px] w-[354px] m-auto rounded-xl mt-[60px]">
         <div className="">
-          <h1 className="text-5xl font-semibold">Our Offline Traction</h1>
-          <p className="w-[61rem] text-[24px] font-[Raleway]">
+          <h1 className="lg:text-5xl text-[32px] font-semibold">Our Offline Traction</h1>
+          <p className="lg:w-[61rem] lg:text-[24px] text-[12px] w-[294px] font-[Raleway]">
             To ensure our product is viable and needed we created an offline
             replica of the app using customer service as the link while the
             developers are working on the app. In 3 months we have these figures
           </p>
 
-          <div className="flex justify-start">
-            <div className=" pr-[136.47px]">
-              <h1 className="text-5xl font-semibold mb-[10px]">40+</h1>
-              <p className="text-[24px] font-[Raleway]">Active Users</p>
-              <p className="text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
+          <div className="flex lg:flex-row flex-col justify-start">
+            <div className="lg:pr-[136.47px]">
+              <h1 className="lg:text-5xl font-semibold mb-[10px]">40+</h1>
+              <p className="lg:text-[24px] font-[Raleway]">Active Users</p>
+              <p className="lg:text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
                 With man-man marketing and refferals, we are having more
                 businesses and individuals actively using our service
               </p>
             </div>
 
             <div className="pr-[136.47px]">
-              <h1 className="text-5xl font-semibold mb-[10px]">350+</h1>
-              <p className="text-[24px] font-[Raleway]">
+              <h1 className="lg:text-5xl font-semibold mb-[10px]">350+</h1>
+              <p className="lg:text-[24px] font-[Raleway]">
                 Completed Transaction
               </p>
-              <p className="text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
+              <p className="lg:text-[14px] mt-[9px] font-[Raleway] w-[269.53px] opacity-95">
                 Beyond these figure are transactions with that are making people
                 refer and long for the app release
               </p>
@@ -48,28 +48,30 @@ const FooterExpress = () => {
         </div>
       </div>
       {/* Sensational Blitze */}
-      <div className="flex flex-col m-auto bg-[#284B63] rounded-xl mt-[40px] w-[1261px] text-white text-center py-[60px]">
-        <p className="w-[565px] m-auto text-[24px] font-light font-[Raleway]">
+      <div className="flex flex-col m-auto bg-[#284B63] rounded-xl mt-[40px] w-[354px] lg:w-[1261px] text-white text-center py-[60px]">
+        <p className="lg:first-line:w-[565px] m-auto lg:text-[24px] text-[10px] font-light w-[266px] font-[Raleway]">
           Beyond these figure are transactions with that are making people refer
           and long for the app release
         </p>
 
-        <p className="text-[24px] font-semibold">Sensational Bitez</p>
-        <p className="text-[14px] italic font-[Raleway]">Business</p>
+        <p className="lg:text-[24px] text-[10px] font-semibold">Sensational Bitez</p>
+        <p className="lg:text-[14px] text-[8px] italic font-[Raleway]">Business</p>
 
         <div className='flex m-auto mt-[42.69px]'>
-          <BsCircleFill className='w-[20px] mr-[10px]' />
-          <BsCircleFill className='w-[20px] text-[#C4C4C4] mr-[10px]'/>
-          <BsCircleFill className='w-[20px] text-[#C4C4C4] mr-[10px]'/>
-          <BsCircleFill className='w-[20px] text-[#C4C4C4] mr-[10px]'/>
-          <BsCircleFill className='w-[20px] text-[#C4C4C4]'/>
+          <BsCircleFill className='lg:w-[20px] w-[5.61px] lg:mr-[10px] mr-[2.81px]' />
+          <BsCircleFill className='lg:w-[20px] w-[5.61px] text-[#C4C4C4] lg:mr-[10px] mr-[2.81px]'/>
+          <BsCircleFill className='lg:w-[20px] w-[5.61px] text-[#C4C4C4] lg:mr-[10px] mr-[2.81px]'/>
+          <BsCircleFill className='lg:w-[20px] w-[5.61px] text-[#C4C4C4] lg:mr-[10px] mr-[2.81px]'/>
+          <BsCircleFill className='lg:w-[20px] w-[5.61px] text-[#C4C4C4]'/>
         </div>
       </div>
 
       {/* Wish to partner with us */}
 
-      <div className='flex justify-around items-center m-auto w-[1261px] mt-[60px]'>
-      <div className="  lg:mb-28 mb-10 ">
+      
+      <div className='hidden lg:block'>
+      <div className='flex flex-row justify-around items-center m-auto w-[1261px] mt-[60px]  '>
+      <div className="lg:mb-28 mb-10 ">
         <p className="lg:text-6xl text-3xl font-semibold lg:w-[590px]">
           Wish to partner
         </p>
@@ -108,7 +110,15 @@ const FooterExpress = () => {
               </p>
             </div>
           </div>
+      </div>
+      </div>
 
+      <div className='block lg:hidden w-[186px] py-[40px] ml-[30px]'>
+        <h1 className='text-[24px]'>Wish to invest in ehhllo
+        e<span className="text-red-600">X</span>press?</h1>
+        <button className="text-white lg:mt-0 mt-3 bg-red-600 py-[8px] px-[33.5px] font-[Raleway] font-bold text-[12px]">
+            Contact us here
+          </button>
       </div>
     </>
   );

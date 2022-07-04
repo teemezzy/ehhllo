@@ -2,11 +2,11 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="flex lg:flex-row flex-col w-[1060px] m-auto justify-around lg:-translate-x-20">
+    <div className="lg:flex lg:flex-row flex-col lg:w-[1060px] w-[258px] m-auto justify-around lg:-translate-x-20">
       <div className=" flex flex-col gap-10 justify-around  ">
-        <div className="bg-[#3C6E71] w-[450px] px-[30px] pt-[28px] pb-[41.89px] text-white rounded-xl">
-          <h1 className="text-5xl font-semibold">Who we serve</h1>
-          <p className="text-[24px] mt-[20.11px] font-[Raleway]">
+        <div className="bg-[#3C6E71] lg:w-[450px] w-[258px] lg:px-[30px] pl-[10px] pr-[24px] lg:pt-[28px] lg:pb-[41.89px] py-[13px] text-white rounded-xl">
+          <h1 className="lg:text-5xl text-[32px] font-semibold lg:text-left text-center">Who we serve</h1>
+          <p className="lg:text-[24px] text-[13px] lg:mt-[20.11px] mt-[10px] font-[Raleway] lg:text-left text-center">
             Whether you are an individual wanting to send/receive an item, a
             market/online seller who requires fast and easy access to dispatch
             to customers, or a corporate body needing the services of a
@@ -14,9 +14,9 @@ const Cards = () => {
           </p>
         </div>
 
-        <div className="bg-[#353535] w-[450px]  px-[30px] pt-[28px] pb-[41.89px] text-white rounded-xl">
-          <h1 className="text-5xl font-semibold">Why partner?</h1>
-          <p className="text-[24px] mt-[20.11px] font-[Raleway]">
+        <div className="bg-[#353535] lg:w-[450px] w-[258px] lg:px-[30px] pl-[10px] pr-[24px] lg:pt-[28px] lg:pb-[41.89px] py-[13px] text-white rounded-xl flex flex-col justify-end m-auto">
+          <h1 className="lg:text-5xl text-[32px] font-semibold lg:text-left text-center">Why partner?</h1>
+          <p className="lg:text-[24px] text-[13px] lg:mt-[20.11px] mt-[10px] font-[Raleway] lg:text-left text-center">
             We are giving you a competitive pool of demand for dispatch
             services, a wallet system that guarantees user payment security, and
             a platform that gives access to different dispatch forms, thereby
@@ -27,9 +27,9 @@ const Cards = () => {
         </div>
       </div>
 
-      <div className="bg-[#284B63] w-[450px] h-[700px] pt-[28px] pb-[41.89px] lg:ml-[160px] lg:px-[30px] text-white rounded-xl">
-        <h1 className="text-5xl font-semibold">Why use us?</h1>
-        <p className="text-[24px] mt-[20.11px] font-[Raleway] ">
+      <div className="bg-[#284B63] lg:w-[450px] w-[258px] lg:h-[700px] lg:mt-0 mt-10 lg:px-[30px] pl-[10px] pr-[24px] lg:pt-[28px] lg:pb-[41.89px] py-[13px] lg:ml-[160px] text-white rounded-xl">
+        <h1 className="lg:text-5xl text-[32px] font-semibold lg:text-left text-center">Why use us?</h1>
+        <p className="lg:text-[24px] text-[13px] lg:mt-[20.11px] mt-[10px] font-[Raleway] lg:text-left text-center">
           We have a system that gives users access to different types of
           vehicles within close proximity, thereby making access to dispatch
           faster. <br/> We have a regulated pricing structure that makes dispatch
