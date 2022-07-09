@@ -8,7 +8,7 @@ const Herosection = () => {
         <h1 className="lg:text-[68.89px] text-[45.22px] font-semibold">
           ehhllo
         </h1>
-        <h3 className="italic lg:text-[32px] mb-[20px]">/hello/</h3>
+        <h3 className="italic lg:text-[32px] lg:mb-[20px] mb-[9.51px]">/hello/</h3>
         <p className="font-[Raleway] lg:text-[24px] lg:w-[460px] w-[332.px]">
           An utterance of <span className="font-bold ">‘hello’</span>; a
           greeting. puns on the popular colloquial greeting hello.
@@ -18,7 +18,7 @@ const Herosection = () => {
         </p>
         <button
           type="button"
-          className="bg-red-600 text-white border-2 rounded-lg font-[Raleway] lg:mt-[45px] font-bold py-[10.5px] px-[70px]"
+          className="bg-red-600 text-white border-2 rounded-lg font-[Raleway] lg:mt-[45px] mt-[19.2px] font-bold py-[10.5px] px-[70px]"
         >
           Read more
         </button>

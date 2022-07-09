@@ -35,8 +35,7 @@ const Cards = () => {
           faster. <br/> We have a regulated pricing structure that makes dispatch
           cheaper while giving the users the power to vet logistics providers
           and operators, thereby reducing bad experiences and making the system
-          more reliable. <br/>We have an inbuilt Wallet that leverages modern payment
-          technology that ensures swift and easy payment.
+          more reliable. <br/>We have an inbuilt Wallet that can leverage modern payment technology to ensure swift and easy payment.
         </p>
       </div>
     </div>

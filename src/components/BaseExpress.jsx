@@ -5,10 +5,10 @@ const BaseExpress = () => {
   return (
     <div className="bg-black text-white lg:w-[1259px] w-[354px] flex flex-col justify-center m-auto lg:py-[69.89px] py-[18px] lg:pl-[29.97px] px-[12px] rounded-xl mb-[91.89px]">
       <div>
-        <h1 className="lg:text-[70px] text-[32px] font-semibold ">
+        <h1 className="lg:text-[70px] lg:w-[1259px] w-[320px] text-[32px] font-semibold ">
           Make money riding or driving
         </h1>
-        <p className="lg:text-[42.79px] text-[14px] font-[Raleway] opacity-50 font-normal">
+        <p className="lg:text-[42.79px] text-[14px]  my-[10px] font-[Raleway] opacity-50 font-normal">
           Any kind of vehicle!
         </p>
       </div>

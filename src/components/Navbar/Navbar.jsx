@@ -21,7 +21,7 @@ const Navbar = () => {
               </div>
               <div className="">
                 <NavLink to="/express.ehhllo">
-                  <img src={express} alt="" className="w-[78px]" />
+                  e<span className='text-red-600'>X</span>press
                 </NavLink>
               </div>
 

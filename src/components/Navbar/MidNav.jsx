@@ -19,9 +19,9 @@ const MidNav = () => {
           <div className="text-[9.42px] text-[#284B63] font-bold">
             <NavLink to="/">messenger</NavLink>
           </div>
-          <div className="w-full ">
+          <div className=" text-[9.42px] text-[#284B63] font-bold">
             <NavLink to="/express.ehhllo">
-              <img src={expressMobile} alt="" className="" />
+              e<span className="text-red-600">X</span>press
             </NavLink>
           </div>
 

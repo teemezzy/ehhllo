@@ -13,7 +13,7 @@ const Base = () => {
               <p className="font-[Raleway] tracking-wide lg:text-[30px] font-light text-[gray] mb-2">
                 Be the first to know
               </p>
-              <p className="font-[Raleway]  lg:text-[18px] text-[12px] lg:font-normal font-light tracking-wider ">
+              <p className="font-[Raleway]  lg:text-[18px] mb-[19.22px] text-[12px] lg:font-normal font-light tracking-wider ">
                 Sign up for ehhllo emails to be the first to see inspiring
                 content, news, updates and exclusive offers.
               </p>
